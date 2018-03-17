@@ -1,0 +1,40 @@
+{
+  "name": "seneca-redis-kv",
+  "version": "0.0.1",
+  "description": "Seneca plugin providing messages for a redis key-value store.",
+  "main": "redis-kv.js",
+  "scripts": {
+    "test": "lab -P test -t 100",
+    "prettier": "prettier --write --no-semi --single-quote *.js lib/*.js test/*.js",
+    "coveralls": "lab -s -P test -r lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voxgig/seneca-redis-kv.git"
+  },
+  "author": "Richard Rodger (richardrodger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voxgig/seneca-redis-kv/issues"
+  },
+  "homepage": "https://github.com/voxgig/seneca-redis-kv#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "redis-kv.js"
+  ],
+  "dependencies": {
+    "optioner": "1.1.x",
+    "redis": "2.8.x"
+  },
+  "devDependencies": {
+    "code": "4",
+    "coveralls": "3",
+    "joi": "12",
+    "lab": "14",
+    "prettier": "1",
+    "seneca": "plugin",
+    "seneca-kv": "latest",
+    "seneca-plugin-validator": "0"
+  }
+}
