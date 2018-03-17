@@ -2,10 +2,10 @@
 Seneca plugin providing messages for a redis key-value store.
 Depends on the [`seneca-kv`](https://github.com/voxgig/seneca-kv) plugin.
 
-[![Npm][BadgeNpm]]
-[![NpmFigs][BadgeNpmFigs]]
-[![Travis][BadgeTravis]]
-[![Coveralls][BadgeCoveralls]]
+![Npm][BadgeNpm]
+![NpmFigs][BadgeNpmFigs]
+![Travis][BadgeTravis]
+![Coveralls][BadgeCoveralls]
 
 
 ## Quick Example
